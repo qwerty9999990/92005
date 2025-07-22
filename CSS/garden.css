@@ -1,0 +1,41 @@
+html, * {
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    font-family: 'Segoe UI';
+    font-weight: 750;
+    
+}
+
+.navbar{
+display: flex;
+overflow: hidden;
+background-color: #515B42;
+align-items: left;
+justify-content: flex-start;
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type:none
+  }
+
+ nav a {
+    color:#EFD4B3;
+    padding: 1.2rem;
+    font-size: 3.2rem;
+    text-decoration: none;
+ }
+
+nav a:hover{
+    background-color: rgb(3, 56, 3);
+}
+
+.searchbar{
+   border-radius: 35px;
+   margin-left: 40rem;
+   margin-top: 13px;
+   margin-bottom: 13px;
+}
